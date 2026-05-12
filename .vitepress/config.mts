@@ -14,14 +14,12 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: '/avatar.jpg',
-
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Projects', link: '/projects/' },
       { text: 'Publications', link: '/publications/' },
       { text: 'Notes', link: '/notes/' },
-      { text: 'Resume', link: '/resume.pdf' },
+      { text: 'Resume', link: '/resume/' },
       { text: 'GitHub', link: 'https://github.com/AW-one' }
     ],
 

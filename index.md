@@ -5,16 +5,13 @@ hero:
   name: "KINGZILV"
   text: "AIGC · Computer Vision · Fashion Intelligence"
   tagline: "Personal Homepage | Garment Generation, Virtual Try-on, Diffusion Models and Multimodal AI"
-  image:
-    src: /avatar.jpg
-    alt: KINGZILV
   actions:
     - theme: brand
       text: View Projects
       link: /projects/
     - theme: alt
-      text: Download Resume
-      link: /resume.pdf
+      text: View Resume
+      link: /resume/
     - theme: alt
       text: GitHub
       link: https://github.com/AW-one
