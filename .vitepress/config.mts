@@ -4,7 +4,7 @@ export default defineConfig({
   title: "KINGZILV",
   description: "Personal Homepage | AIGC, Computer Vision, Fashion Intelligence and Multimodal AI",
 
-  base: "/Kingzilv.github.io/",
+  base: "/",
 
   cleanUrls: true,
 
