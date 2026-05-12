@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Kingzilv_tobe_better",
+  title: "KINGZILV_tobe_better",
   description: "Personal Homepage | AIGC, Computer Vision, Fashion Intelligence and Multimodal AI",
 
   base: "/",
