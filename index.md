@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "KINGZILV"
+  name: "王泯皓 · Allen Wang"
   text: "AIGC · Computer Vision · Fashion Intelligence"
   tagline: "Personal Homepage | Garment Generation, Virtual Try-on, Diffusion Models and Multimodal AI"
   actions:
