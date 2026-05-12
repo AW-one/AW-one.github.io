@@ -5,6 +5,9 @@ hero:
   name: "王泯皓 · Allen Wang"
   text: "AIGC · Computer Vision · Fashion Intelligence"
   tagline: "Personal Homepage | Garment Generation, Virtual Try-on, Diffusion Models and Multimodal AI"
+  image:
+    src: /AW.jpg
+    alt: 王泯皓 · Allen Wang
   actions:
     - theme: brand
       text: View Projects
