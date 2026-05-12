@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "王泯皓",
+  title: "Kingzilv_tobe_better",
   description: "Personal Homepage | AIGC, Computer Vision, Fashion Intelligence and Multimodal AI",
 
   base: "/",
@@ -9,7 +9,7 @@ export default defineConfig({
   cleanUrls: true,
 
   head: [
-    ['meta', { name: 'author', content: 'KINGZILV' }],
+    ['meta', { name: 'author', content: '王泯皓' }],
     ['meta', { name: 'keywords', content: 'AIGC, Computer Vision, Garment Generation, Virtual Try-on, Diffusion Models, Multimodal AI' }]
   ],
 
