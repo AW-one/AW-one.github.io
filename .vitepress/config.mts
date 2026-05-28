@@ -57,6 +57,10 @@ export default defineConfig({
                 { text: 'FLUX', link: '/notes/base_models/flux' },
               ]
             },
+            { text: 'Style Transfer Models', 
+              collapsed: false,
+              link: '/notes/style_transfer_models/',
+            },
             { text: '模板', link: '/notes/paper_template' }
           ]
         }
