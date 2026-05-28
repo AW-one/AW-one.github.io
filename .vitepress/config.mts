@@ -39,7 +39,9 @@ export default defineConfig({
         {
           text: 'Publications',
           items: [
-            { text: 'Overview', link: '/publications/' }
+            { text: 'Overview', link: '/publications/' },
+            { text: 'RedesignNet', link: '/publications/redesignnet' },
+            { text: 'GTDNet', link: '/publications/NCAA' }
           ]
         }
       ],
@@ -47,7 +49,15 @@ export default defineConfig({
         {
           text: 'Notes',
           items: [
-            { text: 'Overview', link: '/notes/' }
+            { text: 'Overview', link: '/notes/' },
+            { text: 'BASE Models', 
+              collapsed: false,
+              link: '/notes/base_models/',
+              items: [
+                { text: 'FLUX', link: '/notes/base_models/flux' },
+              ]
+            },
+            { text: '模板', link: '/notes/paper_template' }
           ]
         }
       ]

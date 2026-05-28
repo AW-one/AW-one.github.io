@@ -6,8 +6,8 @@ hero:
   text: "AIGC · Computer Vision · Fashion Intelligence"
   tagline: "Personal Homepage | Garment Generation, Virtual Try-on, Diffusion Models and Multimodal AI"
   image:
-    src: /AW.jpg
-    alt: 王泯皓 · Allen Wang
+    src: shan.jpeg
+    # alt: 王泯皓 · Allen Wang
   actions:
     - theme: brand
       text: View Projects
@@ -20,15 +20,24 @@ hero:
       link: https://github.com/AW-one
 
 features:
-  - title: Research
+  - icon: 🔍
+    title: Research
     details: AIGC, computer vision, intelligent garment generation, virtual try-on, style transfer and multimodal generative models.
-  - title: Projects
+  - icon: 🏗️
+    title: Projects
     details: RedesignNet, ConceptCloth, ComfyUI LoRA workflow, SDXL / FLUX-based fashion generation experiments.
-  - title: Notes
+    link: /projects
+  - icon: 📖
+    title: Notes
     details: A reserved space for paper notes, model analysis, engineering records and future technical blogs.
+    link: /notes
+  - icon: 🥸
+    title: About me
+    details: My introduction
+    link: /resume
 ---
 
-## About Me
+<!-- ## About Me
 
 I am focusing on AIGC, computer vision, and intelligent fashion generation. My current research interests include garment generation, style transfer, virtual try-on, diffusion models, GAN-based image generation, and multimodal AI.
 
@@ -41,4 +50,4 @@ I am focusing on AIGC, computer vision, and intelligent fashion generation. My c
 
 ## Current Focus
 
-I am currently building a personal academic and project homepage. This site will gradually include my research work, publications, project summaries, technical notes, and resume information.
+I am currently building a personal academic and project homepage. This site will gradually include my research work, publications, project summaries, technical notes, and resume information. -->
