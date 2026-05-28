@@ -55,4 +55,8 @@ git push origin main
 
 ---
 
+## 遇到的问题
+
+在上传的时候可能由于错误的GitHub账户的登录，上传之后无法在action中执行正确的链接
+
 以上步骤适用于将编辑好的文件上传到 GitHub。
