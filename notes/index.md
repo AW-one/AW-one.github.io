@@ -1,6 +1,6 @@
 # Notes
 
-This section is reserved for future paper notes, model analysis, engineering records, and technical blogs.
+这一个板块主要是把一些我看过的文章记录一下
 
 ## Planned Topics
 
