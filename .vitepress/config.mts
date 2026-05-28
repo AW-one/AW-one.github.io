@@ -7,7 +7,8 @@ export default defineConfig({
   base: "/",
 
   cleanUrls: true,
-
+  ignoreDeadLinks: true,
+  
   head: [
     ['meta', { name: 'author', content: 'KINGZILV' }],
     ['meta', { name: 'keywords', content: 'AIGC, Computer Vision, Garment Generation, Virtual Try-on, Diffusion Models, Multimodal AI' }]
