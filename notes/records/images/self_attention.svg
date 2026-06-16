@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="300" viewBox="0 0 820 300" role="img" aria-labelledby="title desc">
+  <title id="title">Self attention</title>
+  <desc id="desc">A token attends to other tokens with different weights.</desc>
+  <rect width="820" height="300" fill="#ffffff"/>
+  <text x="410" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#222">Self-Attention: 每个 token 动态关注上下文</text>
+  <g font-family="Arial, sans-serif" font-size="16">
+    <rect x="80" y="118" width="92" height="48" rx="8" fill="#e8f1ff" stroke="#4f7cac" stroke-width="2"/>
+    <text x="126" y="148" text-anchor="middle" fill="#222">The</text>
+    <rect x="230" y="118" width="92" height="48" rx="8" fill="#e8f1ff" stroke="#4f7cac" stroke-width="2"/>
+    <text x="276" y="148" text-anchor="middle" fill="#222">cat</text>
+    <rect x="380" y="118" width="92" height="48" rx="8" fill="#fff4e6" stroke="#f2a65a" stroke-width="3"/>
+    <text x="426" y="148" text-anchor="middle" fill="#222">sat</text>
+    <rect x="530" y="118" width="92" height="48" rx="8" fill="#e8f1ff" stroke="#4f7cac" stroke-width="2"/>
+    <text x="576" y="148" text-anchor="middle" fill="#222">on</text>
+    <rect x="680" y="118" width="92" height="48" rx="8" fill="#e8f1ff" stroke="#4f7cac" stroke-width="2"/>
+    <text x="726" y="148" text-anchor="middle" fill="#222">mat</text>
+    <path d="M426 116 C390 62 300 62 276 112" fill="none" stroke="#4f7cac" stroke-width="4"/>
+    <text x="350" y="72" fill="#4f7cac">0.42</text>
+    <path d="M426 116 C478 70 548 72 576 112" fill="none" stroke="#8fc0a9" stroke-width="3"/>
+    <text x="510" y="82" fill="#3f7f61">0.25</text>
+    <path d="M426 166 C506 228 670 224 726 170" fill="none" stroke="#9a6fb0" stroke-width="3"/>
+    <text x="575" y="235" fill="#79509a">0.20</text>
+    <path d="M426 166 C310 250 150 236 126 170" fill="none" stroke="#c66c5c" stroke-width="2"/>
+    <text x="235" y="238" fill="#9b4f44">0.13</text>
+    <text x="410" y="278" text-anchor="middle" fill="#555">当前 token 根据相关性加权汇总其他 token 的信息</text>
+  </g>
+</svg>

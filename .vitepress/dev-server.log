@@ -1,0 +1,64 @@
+
+> kingzilv-homepage@1.0.0 docs:dev
+> vitepress dev --host 127.0.0.1 --port 5173
+
+Re-optimizing dependencies because lockfile has changed
+Port 5173 is in use, trying another one...
+
+  [32m[1mvitepress[22m v1.6.4[39m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5174[22m/[39m
+[2m21:23:30[22m [36m[1m[vitepress][22m[39m [32m.vitepress\config.mts changed, restarting server...
+[39m
+Port 5173 is in use, trying another one...
+
+  [32m[1mvitepress[22m v1.6.4[39m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5174[22m/[39m
+[2m21:24:49[22m [36m[1m[vitepress][22m[39m [32m.vitepress\config.mts changed, restarting server...
+[39m
+
+  [32m[1mvitepress[22m v1.6.4[39m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m21:31:52[22m [36m[1m[vitepress][22m[39m [32m.vitepress\config.mts changed, restarting server...
+[39m
+Port 5173 is in use, trying another one...
+
+  [32m[1mvitepress[22m v1.6.4[39m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5174[22m/[39m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/404.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/notes/base_models/flux.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/notes/base_models/index.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/notes/index.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/notes/paper_template.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/projects/comfyui-lora.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/projects/conceptcloth.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/projects/index.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/projects/redesignnet.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/publications/index.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/publications/NCAA.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/publications/redesignnet.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/index.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/README.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/usage.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/vitepress-features.html[22m
+[2m13:57:30[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/resume/index.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/404.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/index.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/README.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/usage.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/vitepress-features.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/publications/index.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/publications/NCAA.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/publications/redesignnet.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/notes/index.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/notes/paper_template.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/resume/index.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/projects/comfyui-lora.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/projects/conceptcloth.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/projects/index.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/projects/redesignnet.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/notes/base_models/flux.html[22m
+[2m13:57:31[22m [36m[1m[vitepress][22m[39m [32mpage reload [39m[2m.vitepress/dist/notes/base_models/index.html[22m

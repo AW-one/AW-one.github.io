@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="280" viewBox="0 0 820 280" role="img" aria-labelledby="title desc">
+  <title id="title">Transformer dropout</title>
+  <desc id="desc">Some activations are randomly dropped during training.</desc>
+  <rect width="820" height="280" fill="#ffffff"/>
+  <text x="410" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#222">Dropout: 训练时随机屏蔽部分激活</text>
+  <g font-family="Arial, sans-serif" font-size="15">
+    <text x="190" y="68" text-anchor="middle" fill="#333">原始激活 h</text>
+    <text x="630" y="68" text-anchor="middle" fill="#333">Dropout 后的激活</text>
+    <g fill="#4f7cac">
+      <circle cx="110" cy="110" r="18"/><circle cx="170" cy="110" r="18"/><circle cx="230" cy="110" r="18"/><circle cx="290" cy="110" r="18"/>
+      <circle cx="110" cy="170" r="18"/><circle cx="170" cy="170" r="18"/><circle cx="230" cy="170" r="18"/><circle cx="290" cy="170" r="18"/>
+    </g>
+    <g fill="#4f7cac">
+      <circle cx="550" cy="110" r="18"/><circle cx="670" cy="110" r="18"/>
+      <circle cx="550" cy="170" r="18"/><circle cx="610" cy="170" r="18"/><circle cx="730" cy="170" r="18"/>
+    </g>
+    <g fill="#dddddd" stroke="#999" stroke-width="2">
+      <circle cx="610" cy="110" r="18"/><circle cx="730" cy="110" r="18"/><circle cx="670" cy="170" r="18"/>
+    </g>
+    <text x="610" y="116" text-anchor="middle" fill="#777">0</text>
+    <text x="730" y="116" text-anchor="middle" fill="#777">0</text>
+    <text x="670" y="176" text-anchor="middle" fill="#777">0</text>
+    <path d="M330 140 H490" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="410" y="126" text-anchor="middle" fill="#555">随机 mask</text>
+    <text x="410" y="248" text-anchor="middle" fill="#555">被屏蔽的神经元本轮不参与，减少模型对单一路径的依赖</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#555"/>
+    </marker>
+  </defs>
+</svg>

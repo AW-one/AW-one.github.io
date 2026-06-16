@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="430" viewBox="0 0 980 430" role="img" aria-labelledby="title desc">
+  <title id="title">DiT adaLN-Zero block</title>
+  <desc id="desc">A schematic of a DiT block using adaLN-Zero conditioning with timestep and class embeddings.</desc>
+  <rect width="980" height="430" fill="#ffffff"/>
+  <text x="490" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#222">DiT Block: adaLN-Zero Conditioning</text>
+  <g font-family="Arial, sans-serif" font-size="15">
+    <rect x="52" y="184" width="100" height="58" rx="8" fill="#e8f1ff" stroke="#4f7cac" stroke-width="2"/>
+    <text x="102" y="218" text-anchor="middle" fill="#222">tokens h</text>
+    <path d="M156 213 H215" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="230" y="165" width="120" height="96" rx="8" fill="#f7f2fb" stroke="#9a6fb0" stroke-width="2"/>
+    <text x="290" y="195" text-anchor="middle" fill="#222">adaLN</text>
+    <text x="290" y="219" text-anchor="middle" fill="#555">(1+γ) LN(h)+β</text>
+    <text x="290" y="243" text-anchor="middle" fill="#555">from t,c</text>
+    <path d="M354 213 H415" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="430" y="165" width="120" height="96" rx="8" fill="#eaf8ef" stroke="#58a55c" stroke-width="2"/>
+    <text x="490" y="203" text-anchor="middle" fill="#222">MSA</text>
+    <text x="490" y="227" text-anchor="middle" fill="#555">self-attention</text>
+    <path d="M554 213 H615" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="630" y="165" width="120" height="96" rx="8" fill="#fff4e6" stroke="#f2a65a" stroke-width="2"/>
+    <text x="690" y="198" text-anchor="middle" fill="#222">gate α</text>
+    <text x="690" y="222" text-anchor="middle" fill="#555">zero init</text>
+    <text x="690" y="246" text-anchor="middle" fill="#555">residual scale</text>
+    <path d="M754 213 H812" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <circle cx="842" cy="213" r="22" fill="#f5f7fa" stroke="#777" stroke-width="2"/>
+    <text x="842" y="219" text-anchor="middle" fill="#222">+</text>
+    <path d="M864 213 H920" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="918" y="184" width="42" height="58" rx="8" fill="#e8f1ff" stroke="#4f7cac" stroke-width="2"/>
+    <text x="939" y="218" text-anchor="middle" fill="#222">u</text>
+    <path d="M102 244 C125 335 790 335 842 238" fill="none" stroke="#4f7cac" stroke-width="2" stroke-dasharray="6 5"/>
+    <rect x="350" y="62" width="280" height="62" rx="8" fill="#f5f7fa" stroke="#777" stroke-width="2"/>
+    <text x="490" y="88" text-anchor="middle" fill="#222">condition y = timestep embedding + class embedding</text>
+    <text x="490" y="111" text-anchor="middle" fill="#555">MLP predicts γ, β, α for MSA and MLP branches</text>
+    <path d="M490 126 V155" stroke="#777" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="490" y="382" text-anchor="middle" fill="#555">第二个子层同理：u → adaLN → MLP → gate α → residual add</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#555"/>
+    </marker>
+  </defs>
+</svg>

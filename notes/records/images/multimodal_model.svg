@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="320" viewBox="0 0 860 320" role="img" aria-labelledby="title desc">
+  <title id="title">Multimodal model</title>
+  <desc id="desc">Text and image encoders map inputs into a shared representation used by a model.</desc>
+  <rect width="860" height="320" fill="#ffffff"/>
+  <text x="430" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#222">Multimodal Model: 不同模态进入统一语义空间</text>
+  <g font-family="Arial, sans-serif" font-size="15">
+    <rect x="70" y="82" width="130" height="58" rx="10" fill="#e8f1ff" stroke="#4f7cac" stroke-width="2"/>
+    <text x="135" y="116" text-anchor="middle" fill="#222">文本输入</text>
+    <rect x="70" y="188" width="130" height="58" rx="10" fill="#fff4e6" stroke="#f2a65a" stroke-width="2"/>
+    <text x="135" y="222" text-anchor="middle" fill="#222">图像输入</text>
+    <path d="M205 111 H280" stroke="#4f7cac" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M205 217 H280" stroke="#f2a65a" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="295" y="78" width="130" height="66" rx="10" fill="#f5f7fa" stroke="#777" stroke-width="2"/>
+    <text x="360" y="105" text-anchor="middle" fill="#222">Text Encoder</text>
+    <text x="360" y="128" text-anchor="middle" fill="#555">text tokens</text>
+    <rect x="295" y="184" width="130" height="66" rx="10" fill="#f5f7fa" stroke="#777" stroke-width="2"/>
+    <text x="360" y="211" text-anchor="middle" fill="#222">Vision Encoder</text>
+    <text x="360" y="234" text-anchor="middle" fill="#555">image patches</text>
+    <path d="M430 111 C500 110 505 140 550 154" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <path d="M430 217 C500 218 505 188 550 166" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <rect x="565" y="116" width="130" height="82" rx="10" fill="#f7f2fb" stroke="#9a6fb0" stroke-width="2"/>
+    <text x="630" y="150" text-anchor="middle" fill="#222">Fusion</text>
+    <text x="630" y="173" text-anchor="middle" fill="#555">joint space</text>
+    <path d="M700 157 H760" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="775" y="128" width="60" height="58" rx="10" fill="#eaf8ef" stroke="#58a55c" stroke-width="2"/>
+    <text x="805" y="153" text-anchor="middle" fill="#222">回答</text>
+    <text x="805" y="174" text-anchor="middle" fill="#222">/动作</text>
+    <text x="430" y="292" text-anchor="middle" fill="#555">核心是对齐：让文字、图像等不同输入可以在同一语义空间中互相解释</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#555"/>
+    </marker>
+  </defs>
+</svg>

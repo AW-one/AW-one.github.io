@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="300" viewBox="0 0 820 300" role="img" aria-labelledby="title desc">
+  <title id="title">Multi-head attention</title>
+  <desc id="desc">Multiple attention heads look at different relationships and are concatenated.</desc>
+  <rect width="820" height="300" fill="#ffffff"/>
+  <text x="410" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#222">Multi-Head Attention: 多个角度同时看上下文</text>
+  <g font-family="Arial, sans-serif" font-size="15">
+    <rect x="60" y="126" width="120" height="54" rx="8" fill="#f5f7fa" stroke="#777" stroke-width="2"/>
+    <text x="120" y="158" text-anchor="middle" fill="#222">输入 tokens</text>
+    <path d="M184 153 H236" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="250" y="62" width="120" height="46" rx="8" fill="#e8f1ff" stroke="#4f7cac" stroke-width="2"/>
+    <text x="310" y="91" text-anchor="middle" fill="#222">Head 1 语法</text>
+    <rect x="250" y="126" width="120" height="46" rx="8" fill="#eaf8ef" stroke="#58a55c" stroke-width="2"/>
+    <text x="310" y="155" text-anchor="middle" fill="#222">Head 2 指代</text>
+    <rect x="250" y="190" width="120" height="46" rx="8" fill="#fff4e6" stroke="#f2a65a" stroke-width="2"/>
+    <text x="310" y="219" text-anchor="middle" fill="#222">Head 3 位置</text>
+    <path d="M374 85 H454" stroke="#4f7cac" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M374 149 H454" stroke="#58a55c" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M374 213 H454" stroke="#f2a65a" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="470" y="112" width="130" height="82" rx="8" fill="#f7f2fb" stroke="#9a6fb0" stroke-width="2"/>
+    <text x="535" y="146" text-anchor="middle" fill="#222">Concat</text>
+    <text x="535" y="170" text-anchor="middle" fill="#555">拼接各 head</text>
+    <path d="M604 153 H656" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="670" y="126" width="110" height="54" rx="8" fill="#f5f7fa" stroke="#777" stroke-width="2"/>
+    <text x="725" y="158" text-anchor="middle" fill="#222">输出表示</text>
+    <text x="410" y="278" text-anchor="middle" fill="#555">不同 head 可以学习不同类型的 token 关系，最后合成更丰富的表示</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#555"/>
+    </marker>
+  </defs>
+</svg>

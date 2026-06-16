@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="320" viewBox="0 0 860 320" role="img" aria-labelledby="title desc">
+  <title id="title">Diffusion K samples</title>
+  <desc id="desc">The same prompt with different noise seeds produces K candidate images.</desc>
+  <rect width="860" height="320" fill="#ffffff"/>
+  <text x="430" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#222">Diffusion K Samples: 同一条件生成多个候选</text>
+  <g font-family="Arial, sans-serif" font-size="15">
+    <rect x="50" y="122" width="150" height="64" rx="10" fill="#f5f7fa" stroke="#777" stroke-width="2"/>
+    <text x="125" y="148" text-anchor="middle" fill="#222">Prompt</text>
+    <text x="125" y="170" text-anchor="middle" fill="#555">"red coat"</text>
+    <path d="M205 154 H270" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="238" y="140" text-anchor="middle" fill="#555">K seeds</text>
+    <g>
+      <rect x="290" y="62" width="112" height="42" rx="8" fill="#e8f1ff" stroke="#4f7cac" stroke-width="2"/>
+      <text x="346" y="88" text-anchor="middle" fill="#222">noise 1</text>
+      <rect x="290" y="122" width="112" height="42" rx="8" fill="#eaf8ef" stroke="#58a55c" stroke-width="2"/>
+      <text x="346" y="148" text-anchor="middle" fill="#222">noise 2</text>
+      <rect x="290" y="182" width="112" height="42" rx="8" fill="#fff4e6" stroke="#f2a65a" stroke-width="2"/>
+      <text x="346" y="208" text-anchor="middle" fill="#222">noise K</text>
+    </g>
+    <path d="M408 83 H500" stroke="#4f7cac" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M408 143 H500" stroke="#58a55c" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M408 203 H500" stroke="#f2a65a" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="520" y="104" width="136" height="82" rx="10" fill="#f7f2fb" stroke="#9a6fb0" stroke-width="2"/>
+    <text x="588" y="137" text-anchor="middle" fill="#222">Denoising</text>
+    <text x="588" y="160" text-anchor="middle" fill="#555">same model</text>
+    <path d="M660 145 H710" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="725" y="55" width="78" height="52" rx="8" fill="#e8f1ff" stroke="#4f7cac" stroke-width="2"/>
+    <text x="764" y="86" text-anchor="middle" fill="#222">img 1</text>
+    <rect x="725" y="126" width="78" height="52" rx="8" fill="#eaf8ef" stroke="#58a55c" stroke-width="2"/>
+    <text x="764" y="157" text-anchor="middle" fill="#222">img 2</text>
+    <rect x="725" y="197" width="78" height="52" rx="8" fill="#fff4e6" stroke="#f2a65a" stroke-width="2"/>
+    <text x="764" y="228" text-anchor="middle" fill="#222">img K</text>
+    <text x="430" y="292" text-anchor="middle" fill="#555">同一 prompt 下，不同初始噪声会得到不同候选图，适合创作挑选和评测</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#555"/>
+    </marker>
+  </defs>
+</svg>

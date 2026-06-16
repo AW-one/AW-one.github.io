@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="260" viewBox="0 0 820 260" role="img" aria-labelledby="title desc">
+  <title id="title">Autoregressive generation</title>
+  <desc id="desc">A left-to-right autoregressive language model predicts one token at a time using previous tokens as context.</desc>
+  <rect width="820" height="260" fill="#ffffff"/>
+  <text x="410" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#222">自回归生成：一次预测一个 token</text>
+  <g font-family="Arial, sans-serif" font-size="16">
+    <rect x="52" y="92" width="92" height="48" rx="8" fill="#e8f1ff" stroke="#4f7cac" stroke-width="2"/>
+    <text x="98" y="122" text-anchor="middle" fill="#222">我</text>
+    <rect x="176" y="92" width="92" height="48" rx="8" fill="#e8f1ff" stroke="#4f7cac" stroke-width="2"/>
+    <text x="222" y="122" text-anchor="middle" fill="#222">喜欢</text>
+    <rect x="300" y="92" width="92" height="48" rx="8" fill="#fff4e6" stroke="#f2a65a" stroke-width="2"/>
+    <text x="346" y="122" text-anchor="middle" fill="#222">?</text>
+    <path d="M148 116 H170" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M272 116 H294" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="462" y="82" width="148" height="68" rx="10" fill="#f7f7f7" stroke="#888" stroke-width="2"/>
+    <text x="536" y="110" text-anchor="middle" fill="#222">模型预测</text>
+    <text x="536" y="134" text-anchor="middle" fill="#555">p(x_t | x_&lt;t)</text>
+    <path d="M398 116 H456" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="676" y="92" width="92" height="48" rx="8" fill="#eaf8ef" stroke="#58a55c" stroke-width="2"/>
+    <text x="722" y="122" text-anchor="middle" fill="#222">机器</text>
+    <path d="M616 116 H670" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M722 145 C722 196 98 196 98 146" fill="none" stroke="#9a6fb0" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrowPurple)"/>
+    <text x="410" y="220" text-anchor="middle" fill="#555">生成出的 token 会加入上下文，再继续预测下一个 token</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#555"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#9a6fb0"/>
+    </marker>
+  </defs>
+</svg>

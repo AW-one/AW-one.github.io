@@ -8,6 +8,9 @@ export default defineConfig({
 
   cleanUrls: true,
   ignoreDeadLinks: true,
+  markdown: {
+    math: true
+  },
   
   head: [
     ['meta', { name: 'author', content: 'KINGZILV' }],
@@ -55,12 +58,32 @@ export default defineConfig({
               collapsed: false,
               link: '/notes/base_models/',
               items: [
+                { text: 'Diffusion Models / DDPM', link: '/notes/base_models/diffusion' },
+                { text: 'DiT', link: '/notes/base_models/dit' },
                 { text: 'FLUX', link: '/notes/base_models/flux' },
+                { text: 'Qwen', link: '/notes/base_models/qwen' },
               ]
             },
             { text: 'Style Transfer Models', 
               collapsed: false,
               link: '/notes/style_transfer_models/',
+            },
+            { text: 'Record', 
+              collapsed: true,
+              link: '/notes/records/',
+              items: [
+                { text: 'LLM 面试题记录', link: '/notes/records/llms' },
+                {
+                  text: '基础概念',
+                  collapsed: false,
+                  items: [
+                    { text: 'Loss Functions', link: '/notes/records/loss' },
+                    { text: 'Deep Learning Concepts', link: '/notes/records/basic_concepts' },
+                    { text: 'Large Model Concepts', link: '/notes/records/large_model_concepts' },
+                    { text: '概念笔记模板', link: '/notes/records/concept_template' },
+                  ]
+                },
+              ]
             },
             { text: '模板', link: '/notes/paper_template' }
           ]
