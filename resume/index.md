@@ -28,7 +28,28 @@ title: Resume
     <p class="ra-sub">Master's student in Control Science and Engineering, working on AIGC and computer vision.</p>
     <h3 class="ra-sec">A brief timeline</h3>
     <div class="ra-trow">
-      <div class="ra-tyear">2024 — Now</div>
+      <div class="ra-tyear">2016 — 2019</div>
+      <div class="ra-tbody">
+        <h4>Luqiao Middle School, Taizhou</h4>
+        <p>High school years in my hometown, Taizhou, Zhejiang — where the science track first got me hooked on how systems work.</p>
+      </div>
+    </div>
+    <div class="ra-trow">
+      <div class="ra-tyear">2019 — 2023</div>
+      <div class="ra-tbody">
+        <h4>B.Eng. in Automation, Zhejiang Sci-Tech University</h4>
+        <p>Four years of control theory and intelligent systems in Hangzhou — the foundation that later pulled me toward AI.</p>
+      </div>
+    </div>
+    <div class="ra-trow">
+      <div class="ra-tyear">2024</div>
+      <div class="ra-tbody">
+        <h4>A Gap Year — Travel &amp; Coffee</h4>
+        <p>A deliberate pause after graduation. I traveled to Xi'an, Taiyuan, Weihai and Qingdao, and worked part-time as a barista at M Stand Coffee — a year of fresh air before grad school.</p>
+      </div>
+    </div>
+    <div class="ra-trow">
+      <div class="ra-tyear">2025 — Now</div>
       <div class="ra-tbody">
         <h4>M.S. in Control Science &amp; Engineering, Donghua University</h4>
         <p>Supervised by Prof. Minbo Zhao and Han Yan. My research focuses on computer vision and fashion-oriented generative AI — making garments generatable, editable and wearable in the digital world.</p>
