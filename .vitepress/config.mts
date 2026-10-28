@@ -23,6 +23,7 @@ export default defineConfig({
       { text: 'Projects', link: '/projects/' },
       { text: 'Publications', link: '/publications/' },
       { text: 'Notes', link: '/notes/' },
+      { text: 'A·Weekly', link: '/weekly/' },
       { text: 'Resume', link: '/resume/' },
       { text: 'GitHub', link: 'https://github.com/AW-one' }
     ],
@@ -46,6 +47,15 @@ export default defineConfig({
             { text: 'Overview', link: '/publications/' },
             { text: 'RedesignNet', link: '/publications/redesignnet' },
             { text: 'GTDNet', link: '/publications/NCAA' }
+          ]
+        }
+      ],
+      '/weekly/': [
+        {
+          text: 'A·Weekly',
+          items: [
+            { text: '全部期数', link: '/weekly/' },
+            { text: '第 001 期 · 创刊词', link: '/weekly/001' }
           ]
         }
       ],
