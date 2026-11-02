@@ -41,6 +41,11 @@ title: A·Weekly
       <span class="aw-br-url">simonwillison.net</span>
       <p>写得非常细致，AI 工具与实践的一手记录；对每个 AI 的评价都中立、公平，很中肯。读着读着，对作者本人也产生了兴趣。</p>
     </div>
+    <div class="aw-br-item">
+      <a href="https://lilianweng.github.io/" target="_blank" rel="noreferrer">Lilian Weng · Lil'Log</a>
+      <span class="aw-br-url">lilianweng.github.io</span>
+      <p>更新不快，但每篇都是深度技术综述：把一个主题的代表工作、关键公式和来龙去脉一次讲透，适合沉下来慢慢读、反复翻。</p>
+    </div>
   </div>
 
   <div class="aw-charter">
@@ -96,6 +101,7 @@ title: A·Weekly
 .aw-g3 .aw-br-item a:hover { text-decoration: underline; }
 .aw-g3 .aw-br-url { color: #A79B7F; font-size: 13px; margin-left: 8px; }
 .aw-g3 .aw-br-item p { font-size: 14px; line-height: 1.8; color: #6E6759; margin: 4px 0 0; }
+.aw-g3 .aw-br-item + .aw-br-item { margin-top: 18px; }
 .dark .aw-g3 .aw-blogroll { background: #33291D; }
 .dark .aw-g3 .aw-blogroll h3 { color: #F3EAD8; }
 .dark .aw-g3 .aw-br-item p { color: #CBBFA9; }

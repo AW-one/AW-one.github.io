@@ -62,7 +62,8 @@ export default defineConfig({
         {
           text: '常翻的博客',
           items: [
-            { text: 'Simon Willison', link: 'https://simonwillison.net/' }
+            { text: 'Simon Willison', link: 'https://simonwillison.net/' },
+            { text: 'Lilian Weng', link: 'https://lilianweng.github.io/' }
           ]
         }
       ],
