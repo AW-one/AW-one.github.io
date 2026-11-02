@@ -33,7 +33,7 @@ title: A·Weekly
     <div class="aw-br-item">
       <a href="https://simonwillison.net/" target="_blank" rel="noreferrer">Simon Willison</a>
       <span class="aw-br-url">simonwillison.net</span>
-      <p>写得非常细致，AI 工具与实践的一手记录。读着读着，对作者本人也产生了兴趣。</p>
+      <p>写得非常细致，AI 工具与实践的一手记录；对每个 AI 的评价都中立、公平，很中肯。读着读着，对作者本人也产生了兴趣。</p>
     </div>
   </div>
 
