@@ -55,7 +55,8 @@ export default defineConfig({
           text: 'A·Weekly',
           items: [
             { text: '全部期数', link: '/weekly/' },
-            { text: '第 001 期 · 创刊词', link: '/weekly/001' }
+            { text: '第 001 期 · 创刊词', link: '/weekly/001' },
+            { text: '第 002 期 · 拔智齿小记', link: '/weekly/002' }
           ]
         },
         {

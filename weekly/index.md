@@ -11,21 +11,27 @@ title: A·Weekly
       <h1>A<em>·</em>Weekly</h1>
       <div class="aw-tag">以 AI 为主轴，记录前沿、体验与感悟 · 每周日更新</div>
     </div>
-    <div class="aw-stats">已连载 1 期 · 试刊中（目标 4 期）</div>
+    <div class="aw-stats">已连载 2 期 · 试刊中（目标 4 期）</div>
   </div>
 
-  <a class="aw-hero" href="/weekly/001">
+  <a class="aw-hero" href="/weekly/002">
     <div class="aw-tape"></div>
     <div class="aw-tape2"></div>
-    <span class="aw-now">创 刊 号</span>
-    <h2>创刊词：给自己留一条与时代同步的线</h2>
-    <p>为什么开始写 A·Weekly：不复制谁的做法，只是想用每周一期，push 自己不跟前沿脱节，也把体验和感悟留下来。开始一个想法很容易，坚持一个行为很难——所以先把防断更的约定写在这里。</p>
-    <div class="aw-chips"><span>创刊</span><span>本期一思</span><span>本周一试</span></div>
-    <div class="aw-big">001</div>
+    <span class="aw-now">最 新 一 期</span>
+    <h2>拔智齿小记</h2>
+    <p>本期一思记下拔智齿、缝两针、周日拆线的全过程，顺带得出一个结论：徐汇区的牙医，连普通门诊都很优秀。正文另收 9 条精选：GPT-6.1 Terra、Kimi K3.1 Pro、智元 Worken、两篇论文、Simon 的“游戏拐点”论，和一篇“AI 让我更忙”的自白。</p>
+    <div class="aw-chips"><span>本期一思</span><span>精选 9 条</span><span>下周一件事</span></div>
+    <div class="aw-big">002</div>
   </a>
 
   <div class="aw-archive">往期手账 <span>Archive</span></div>
-  <p class="aw-empty">这里还空着。第 002 期将在 11 月 8 日（周日）发布，往后每周一期，慢慢攒。</p>
+  <a class="aw-arch-item" href="/weekly/001">
+    <span class="aw-arch-no">001</span>
+    <span class="aw-arch-main">
+      <span class="aw-arch-title">创刊词：给自己留一条与时代同步的线</span>
+      <span class="aw-arch-meta">2026.10.26 – 11.01 · 创刊号</span>
+    </span>
+  </a>
 
   <div class="aw-blogroll">
     <h3>常翻的博客 <span class="aw-fixed">固定栏目 · 不随期更新</span></h3>
@@ -77,6 +83,11 @@ title: A·Weekly
   background-repeat: repeat-x; background-position: 0 100%; color: #33302A; }
 .aw-g3 .aw-archive span { color: #4A9FE8; font-size: 15px; font-weight: 600; margin-left: 6px; }
 .aw-g3 .aw-empty { color: #A79B7F; font-size: 14.5px; margin: 4px 0 0; }
+.aw-g3 .aw-arch-item { display: flex; align-items: center; gap: 16px; background: #FFFDF6; border-radius: 14px; padding: 16px 20px; text-decoration: none !important; color: #33302A; box-shadow: 0 8px 18px rgba(164,19,60,.05); margin-top: 6px; }
+.aw-g3 .aw-arch-no { font-family: "Songti SC", serif; font-weight: 700; font-size: 20px; color: #B03A5B; background: #FFE3EC; border-radius: 10px; padding: 4px 12px; transform: rotate(-2deg); white-space: nowrap; }
+.aw-g3 .aw-arch-title { display: block; font-weight: 700; font-size: 16px; }
+.aw-g3 .aw-arch-meta { display: block; color: #A79B7F; font-size: 13px; margin-top: 2px; }
+.dark .aw-g3 .aw-arch-item { background: #33291D; color: #F3EAD8; }
 .aw-g3 .aw-blogroll { margin-top: 36px; background: #FFFDF6; border-radius: 16px; padding: 24px 28px; box-shadow: 0 10px 22px rgba(164,19,60,.06); }
 .aw-g3 .aw-blogroll h3 { font-size: 18px; margin: 0 0 6px; border: none; padding: 0; color: #33302A; }
 .aw-g3 .aw-fixed { display: inline-block; background: #DCEEFF; color: #2B6CB0; border-radius: 999px; padding: 2px 11px; font-size: 12px; font-weight: 700; margin-left: 8px; transform: rotate(-1deg); vertical-align: 2px; }
