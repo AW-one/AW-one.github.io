@@ -27,6 +27,16 @@ title: A·Weekly
   <div class="aw-archive">往期手账 <span>Archive</span></div>
   <p class="aw-empty">这里还空着。第 002 期将在 11 月 8 日（周日）发布，往后每周一期，慢慢攒。</p>
 
+  <div class="aw-blogroll">
+    <h3>常翻的博客 <span class="aw-fixed">固定栏目 · 不随期更新</span></h3>
+    <p class="aw-br-sub">读到写得好的博客就收进来，偶尔翻回去看看。</p>
+    <div class="aw-br-item">
+      <a href="https://simonwillison.net/" target="_blank" rel="noreferrer">Simon Willison</a>
+      <span class="aw-br-url">simonwillison.net</span>
+      <p>写得非常细致，AI 工具与实践的一手记录。读着读着，对作者本人也产生了兴趣。</p>
+    </div>
+  </div>
+
   <div class="aw-charter">
     <h3>本刊约定（写给自己，也算公开备案）</h3>
     <p>一、栏目是池子，不是清单：这周有什么写什么，新闻淡季就少写动态、多写体验。</p>
@@ -67,6 +77,17 @@ title: A·Weekly
   background-repeat: repeat-x; background-position: 0 100%; color: #33302A; }
 .aw-g3 .aw-archive span { color: #4A9FE8; font-size: 15px; font-weight: 600; margin-left: 6px; }
 .aw-g3 .aw-empty { color: #A79B7F; font-size: 14.5px; margin: 4px 0 0; }
+.aw-g3 .aw-blogroll { margin-top: 36px; background: #FFFDF6; border-radius: 16px; padding: 24px 28px; box-shadow: 0 10px 22px rgba(164,19,60,.06); }
+.aw-g3 .aw-blogroll h3 { font-size: 18px; margin: 0 0 6px; border: none; padding: 0; color: #33302A; }
+.aw-g3 .aw-fixed { display: inline-block; background: #DCEEFF; color: #2B6CB0; border-radius: 999px; padding: 2px 11px; font-size: 12px; font-weight: 700; margin-left: 8px; transform: rotate(-1deg); vertical-align: 2px; }
+.aw-g3 .aw-br-sub { color: #A79B7F; font-size: 13.5px; margin: 0 0 14px; }
+.aw-g3 .aw-br-item a { font-weight: 800; font-size: 16px; color: #A4133C; text-decoration: none; }
+.aw-g3 .aw-br-item a:hover { text-decoration: underline; }
+.aw-g3 .aw-br-url { color: #A79B7F; font-size: 13px; margin-left: 8px; }
+.aw-g3 .aw-br-item p { font-size: 14px; line-height: 1.8; color: #6E6759; margin: 4px 0 0; }
+.dark .aw-g3 .aw-blogroll { background: #33291D; }
+.dark .aw-g3 .aw-blogroll h3 { color: #F3EAD8; }
+.dark .aw-g3 .aw-br-item p { color: #CBBFA9; }
 .aw-g3 .aw-charter { margin-top: 36px; background: #FFFDF6; border: 1.5px dashed #E8D9B0; border-radius: 16px; padding: 24px 28px; }
 .aw-g3 .aw-charter h3 { font-size: 17px; margin: 0 0 10px; border: none; padding: 0; color: #33302A; }
 .aw-g3 .aw-charter p { font-size: 14.5px; line-height: 1.9; color: #6E6759; margin: 0 0 4px; }

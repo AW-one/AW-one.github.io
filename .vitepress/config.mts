@@ -57,6 +57,12 @@ export default defineConfig({
             { text: '全部期数', link: '/weekly/' },
             { text: '第 001 期 · 创刊词', link: '/weekly/001' }
           ]
+        },
+        {
+          text: '常翻的博客',
+          items: [
+            { text: 'Simon Willison', link: 'https://simonwillison.net/' }
+          ]
         }
       ],
       '/notes/': [
