@@ -21,7 +21,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Projects', link: '/projects/' },
-      { text: 'Publications', link: '/publications/' },
+      { text: 'Prompt Gallery', link: '/prompts/' },
       { text: 'Notes', link: '/notes/' },
       { text: 'A·Weekly', link: '/weekly/' },
       { text: 'Resume', link: '/resume/' },
@@ -40,13 +40,11 @@ export default defineConfig({
           ]
         }
       ],
-      '/publications/': [
+      '/prompts/': [
         {
-          text: 'Publications',
+          text: 'Prompt Gallery',
           items: [
-            { text: 'Overview', link: '/publications/' },
-            { text: 'RedesignNet', link: '/publications/redesignnet' },
-            { text: 'GTDNet', link: '/publications/NCAA' }
+            { text: '全部收藏', link: '/prompts/' }
           ]
         }
       ],
