@@ -11,7 +11,7 @@ title: Prompt Gallery
       <h1>Prompt <em>Gallery</em></h1>
       <div class="pg-tag">收藏在网上看到的 AIGC 提示词：一张图，一段词，附出处 · 持续收集中</div>
     </div>
-    <div class="pg-stats">已收藏 2 条</div>
+    <div class="pg-stats">已收藏 1 条</div>
   </div>
 
   <div class="pg-card pg-card-duo">
@@ -24,16 +24,6 @@ title: Prompt Gallery
       <h3>红绸悬山</h3>
       <p class="pg-prompt">Cinematic over-the-shoulder shot from directly behind a mysterious young Chinese woman, her loosely pinned black hair, left shoulder and a small section of translucent vermilion-red silk softly blurred in the extreme foreground, the woman occupying the left edge of the frame, camera focus locked on a distant mysterious red silk canopy floating silently between immense Chinese karst moutains, ancient Chinese temple rooftops emerging from cold teal mist far below, selective golden light illuminating the distant silk, deep charcoal shadows, dramatic chiaroscuro, intimate observer perspective, layered depth, strong cinematic tension, photorealistic surreal photography, 50mm lens, shallow depth of field, asymmertical widescreen framing</p>
       <div class="pg-src">提示词由 Allen 收藏（2026-11-09）；左图为 GPT-6.1 Sol Ultra 原图，右图为 AWin 用同一段提示词的复现</div>
-    </div>
-  </div>
-
-  <div class="pg-card">
-    <div class="pg-img pg-img-empty"><span>图片待补<br><small>生成图随后补上</small></span></div>
-    <div class="pg-body">
-      <div class="pg-meta"><span class="pg-no">No.001</span><span class="pg-chip">产品广告</span><span class="pg-chip">微缩景观</span><span class="pg-chip">写实渲染</span></div>
-      <h3>微缩工地 × 护肤瓶</h3>
-      <p class="pg-prompt">A hyper-realistic miniature diorama product advertisement featuring an oversized luxury skincare pump bottle labeled "LUXEVEIL Skin Science - Radiance Nourishing Body Lotion" in cream/beige with a polished gold pump top, placed on a circular platform. Tiny figurine construction workers dressed in yellow coveralls and white hard hats swarm around the bottle climbing scaffolding, painting the bottle with rollers, operating a tower crane, working near industrial tanks and pipework, and unloading a miniature flatbed truck. The scene includes metal scaffolding structures, industrial silos, orange traffic cones, wooden barricades, and storage barrels. The overall color palette is warm beige, cream, gold, and mustard yellow. Studio photography style with soft diffused lighting, no shadows, clean beige background. The concept metaphorically shows workers "crafting" or "building" the perfect lotion. Tilt-shift miniature aesthetic, ultra-detailed, commercial product photography, 8K resolution, photorealistic CGI render.</p>
-      <div class="pg-src">来源：我的 <a href="https://github.com/AW-one/Prompt-Collecting-for-AIGC-in-image-generation" target="_blank" rel="noreferrer">Prompt-Collecting</a> 仓库收藏</div>
     </div>
   </div>
 
@@ -62,9 +52,9 @@ title: Prompt Gallery
 .pg-src a { color: #A4133C; font-weight: 700; text-decoration: none; }
 .pg-src a:hover { text-decoration: underline; }
 
-.pg-duo { flex: 0 0 54%; display: flex; gap: 6px; }
-.pg-fig { flex: 1; position: relative; margin: 0; min-height: 340px; overflow: hidden; }
-.pg-fig img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.pg-duo { flex: 0 0 54%; display: flex; gap: 6px; align-items: flex-start; }
+.pg-fig { flex: 1; position: relative; margin: 0; overflow: hidden; }
+.pg-fig img { width: 100%; height: auto; display: block; }
 .pg-fig figcaption { position: absolute; left: 10px; bottom: 10px; background: rgba(30,25,18,.72); color: #FFE9C9; font-size: 12px; font-weight: 700; padding: 4px 11px; border-radius: 999px; }
 .pg-more { color: #A79B7F; font-size: 14px; margin: 6px 0 0; }
 .dark .pg-wrap { background-color: #2A2118; color: #EDE4D3; }
@@ -78,7 +68,8 @@ title: Prompt Gallery
   .pg-card { flex-direction: column; }
   .pg-img { flex: none; min-height: 220px; }
   .pg-duo { flex: none; }
-  .pg-fig { min-height: 190px; }
+  .pg-duo { flex-direction: column; }
+  .pg-fig { width: 100%; }
   .pg-body { padding: 20px 22px; }
 }
 </style>
